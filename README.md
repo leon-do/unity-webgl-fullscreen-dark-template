@@ -21,3 +21,43 @@ Player Settings...
 Update the WebGL Template
 
 ![Screen Shot 2020-07-07 at 2 37 17 AM](https://user-images.githubusercontent.com/19412160/86728817-cd945100-bffa-11ea-9e97-3863460578c1.png)
+
+## Under the hood
+
+The base is from the `Default` template.
+
+`style.css` was changed
+
+```css
+html {
+  background-color: black;
+}
+
+/* maintain 960x540 aspect ratio */
+#unityContainer {
+  width: 100vw !important;
+  height: 56.25vw !important;
+}
+
+@media only screen and (max-width: 960px), (max-height: 540px) {
+  #unityContainer {
+    width: 960px !important;
+    height: 540px !important;
+  }
+}
+
+.webgl-content * {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.webgl-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+```
