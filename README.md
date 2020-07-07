@@ -61,3 +61,7 @@ html {
 }
 
 ```
+
+## resources
+
+https://docs.unity3d.com/530/Documentation/Manual/webgl-templates.html
