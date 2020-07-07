@@ -1,0 +1,22 @@
+html {
+  background-color: black;
+}
+
+#unityContainer {
+	width: 100vw !important;
+	height: 100vh !important;
+}
+
+.webgl-content * {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.webgl-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
