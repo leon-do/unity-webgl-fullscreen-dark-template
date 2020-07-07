@@ -4,14 +4,14 @@ html {
 
 /* maintain 960x540 aspect ratio */
 #unityContainer {
-  width: 100vw !important;
-  height: 56.25vw !important;
+  width: 100vw;
+  height: 56.25vw;
 }
 
 @media only screen and (max-width: 960px), (max-height: 540px) {
   #unityContainer {
-    width: 960px !important;
-    height: 540px !important;
+    width: 960px;
+    height: 540px;
   }
 }
 
