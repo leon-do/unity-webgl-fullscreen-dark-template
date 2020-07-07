@@ -2,9 +2,17 @@ html {
   background-color: black;
 }
 
+/* maintain 960x540 aspect ratio */
 #unityContainer {
-	width: 100vw !important;
-	height: 100vh !important;
+  width: 100vw !important;
+  height: 56.25vw !important;
+}
+
+@media only screen and (max-width: 960px), (max-height: 540px) {
+  #unityContainer {
+    width: 960px !important;
+    height: 540px !important;
+  }
 }
 
 .webgl-content * {
