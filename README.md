@@ -4,7 +4,7 @@
 
 ## How to use
 
-Create a folder under `/Assets/WebGLTemplates/WebGLTemplates`
+Create a folder called `WebGLTemplates` under `/Assets`
 
 Download `FullDarkThemeTemplate` from here and paste under `WebGLTemplates`
 
